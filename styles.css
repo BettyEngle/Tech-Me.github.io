@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/pic-oregon.jpg");
+    background-size: cover;
+    background-attachment: 
+    ;
+}
+ 
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-color: rgb(136, 158, 219);*/
+    color: beige;
+    padding: 20px;
+    /*width: 100%; /*makes sure the header to create space around the contect */
+    margin: 0 auto; /*contents header horizontally on the page*/
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1); 
+    flex-wrap: wrap;
+}
+
+header img {    
+    
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    width: auto;
+}
+nav{
+
+    display: flex;/* tells Main it is a flex container */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cf4288;
+    flex-direction: row;/*stacks child elements(sections)vertically in a column*/
+}  
+
+.intro{
+    max-width: 500px;
+    text-align: left;
+}
+
+.test{ 
+    font-size: 3ch;
+}
+footer{
+    background-color: #cf4288;
+}
+.centerFooter{
+    text-align: center;
+    vertical-align: baseline;
+    background-color: burlywood;
+}
+.myFacebook{
+    text-decoration: underline;
+    
+}
